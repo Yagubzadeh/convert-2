@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="converter.css">
+    <link rel="icon" href="money1.png">
+</head>
+
+<body>
+    <section class="first">
+        <div class="firstpart">
+            <img src="logo.8y" class="img1">
+            <div>
+                <ul class="navbar">
+                    <li class="bank">БАНК</li>
+                    <li>БИЗНЕС</li>
+                    <li>ИНВЕСТИЦИИ</li>
+                    <li>СТРАХОВАНИЕ</li>
+                    <li>МОБАЙЛ</li>
+                    <li>ПУТЕШЕСТВИЯ</li>
+                    <li>РАЗВЛЕЧЕНИЯ</li>
+                </ul>
+            </div>
+            <button class="button">ВОЙТИ</button>
+        </div>
+    </section>
+    <section class="second">
+        <h1 class="h1text">Currency converter online</h1>
+        <div class="flexvalyuta">
+            <div>
+                <p class="text">I have</p>
+                <div class="currencyflex">
+                    <button id="left" class="money active">RUB</button>
+                    <button id="left" class="money">TRY</button>
+                    <button id="left" class="money">USD</button>
+                    <button id="left" class="money">AZN</button>
+                </div>
+                <input id="amount1" type="number" min="0" class="input" placeholder="Add money" required>
+                <p class="mezenne" id="livecurrency"></p>
+            </div>
+            <div>
+                <p class="text">I want to buy</p>
+                <div class="currencyflex">
+                    <button id="right" class="money">RUB</button>
+                    <button id="right" class="money">TRY</button>
+                    <button id="right" class="money active">USD</button>
+                    <button id="right" class="money">AZN</option>
+                </div>
+                <input id="amount2" type="text" min="0" class="input">
+                <p class="mezenne" id="livecurrency2"></p>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="converter.js"></script>
+
+</html>
